@@ -1,0 +1,33 @@
+Simple Turn-Based Game Mechanics (Godot Tutorial)
+
+
+Skill Resource;
+    SkillName
+    SkillPower
+    SkillCost
+    SkillType enum(Str,Dex,Int)
+
+Entity Node;
+
+    vars
+	    isPlayer:bool
+	    Str:int
+	    Dex:int
+	    Int:int
+	    CurrentTargets:Array
+    funcs
+	    ReceiveAttack(amount,type)
+	    SendAttack(amount,type,multi:bool)
+
+    nodes
+	    Attack Node
+	    Health Node
+	    Skill Node
+    signals
+	    Attack
+	    Death
+
+Attack Node;
+
+    vars
+	    Skills
