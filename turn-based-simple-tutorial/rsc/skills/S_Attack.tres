@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://b2es7jlp1cg8l"]
+
+[ext_resource type="Script" uid="uid://b4n0xuqv15hev" path="res://SkillResource.gd" id="1_4j0qn"]
+
+[resource]
+script = ExtResource("1_4j0qn")
+SkillName = "Special Attack"
+SkillPower = 150.0
+SkillType = "Dex"
+SkillCooldown = 3

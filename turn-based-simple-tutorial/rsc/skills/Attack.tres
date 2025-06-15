@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bo72mcmnqp4fb"]
+
+[ext_resource type="Script" uid="uid://b4n0xuqv15hev" path="res://SkillResource.gd" id="1_ry0pq"]
+
+[resource]
+script = ExtResource("1_ry0pq")
+SkillName = "Attack"
+SkillPower = 100.0
+SkillType = "Str"
